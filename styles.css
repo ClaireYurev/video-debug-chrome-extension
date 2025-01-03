@@ -1,0 +1,17 @@
+.debug-button {
+  display: block !important;
+  position: relative !important;
+  background: #5fc25f !important;
+  color: black !important;
+  padding: 15px 30px !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  border: none !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  z-index: 2147483647 !important;
+  margin: 200px 1000px !important;
+  width: fit-content !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
