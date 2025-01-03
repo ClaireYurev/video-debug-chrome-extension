@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Video Debug Button",
+  "version": "1.0",
+  "description": "Adds debug buttons next to specified videos",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.vimeo.com/*"
+  ],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "run_at": "document_end"
+  }],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
